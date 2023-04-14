@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Klasa Pudełko", "Klasa Pudełko\Klasa Pudełko.csproj", "{F299619D-493F-4901-9A73-63D86D0C9B69}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pudelko_App", "Pudelko_Application\Pudelko_App.csproj", "{464253A0-15DF-46DE-95B1-A355D7FCE5C4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F299619D-493F-4901-9A73-63D86D0C9B69} = {F299619D-493F-4901-9A73-63D86D0C9B69}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib.Pudelko", "Lib.Pudelko", "{E2C721A3-52A4-42E9-8F50-D0DADC22217C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App.Pudelko", "App.Pudelko", "{6D1F9E83-ACFC-4FAD-81AE-8554B6AC99F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F299619D-493F-4901-9A73-63D86D0C9B69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F299619D-493F-4901-9A73-63D86D0C9B69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F299619D-493F-4901-9A73-63D86D0C9B69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F299619D-493F-4901-9A73-63D86D0C9B69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{464253A0-15DF-46DE-95B1-A355D7FCE5C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{464253A0-15DF-46DE-95B1-A355D7FCE5C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{464253A0-15DF-46DE-95B1-A355D7FCE5C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{464253A0-15DF-46DE-95B1-A355D7FCE5C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F299619D-493F-4901-9A73-63D86D0C9B69} = {E2C721A3-52A4-42E9-8F50-D0DADC22217C}
+		{464253A0-15DF-46DE-95B1-A355D7FCE5C4} = {6D1F9E83-ACFC-4FAD-81AE-8554B6AC99F2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E9B3AAFC-E8B1-44FA-865C-262BFE7A9CAE}
+	EndGlobalSection
+EndGlobal
